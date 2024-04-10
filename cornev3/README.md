@@ -1,3 +1,7 @@
+![image](https://github.com/haondt/keyboards/assets/19233365/dba60f5b-fba1-4880-8562-04d5a72e40d8)
+
+image generated with https://jaroslaw-weber.github.io/keyfab/
+
 Build instructions:
 
 - copy the contents of this folder into 
