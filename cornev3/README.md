@@ -26,3 +26,7 @@ qmk compile -kb crkbd/rev1 -km haondt -e CONVERT_TO=helios
 ## Layers
 
 - hold mod + sym to get to num layer
+
+## Credits
+
+- layer behavior is borrowed from [callum](https://github.com/callum-oakley/qmk_firmware/tree/master/users/callum)
