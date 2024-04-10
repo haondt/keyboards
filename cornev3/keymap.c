@@ -36,7 +36,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [MOD] = LAYOUT_split_3x6_3(
-        KC_NO,       KC_NO,       KC_DEL,      KC_TAB,      KC_NO,       KC_NO,       KC_VOLU,     KC_NO,       KC_ENT,      KC_BSPC,     KC_NO,       KC_NO,
+        KC_NO,       KC_NO,       KC_DEL,      KC_TAB,      KC_ESC,       KC_NO,       KC_VOLU,     KC_NO,       KC_ENT,      KC_BSPC,     KC_NO,       KC_NO,
         KC_NO,       OS_SHFT,     OS_GUI,      OS_ALT,      OS_CTRL,     LCTL(KC_Z),  KC_VOLD,     OS_CTRL,     OS_ALT,      OS_GUI,      OS_SHFT,     KC_NO,
         KC_NO,       KC_NO,       KC_F1,       KC_F2,       KC_F3,       KC_F4,       KC_F5,       KC_F6,       KC_F7,       KC_F8,       KC_NO,       KC_NO,
                                   KC_NO,       _______,     _______,     _______,     _______,     KC_NO
