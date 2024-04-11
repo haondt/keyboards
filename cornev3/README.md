@@ -1,4 +1,4 @@
-![image](https://github.com/haondt/keyboards/assets/19233365/3ce968c1-73c7-4aa2-a392-9df4a81737a3)
+![image](https://github.com/haondt/keyboards/assets/19233365/5a4cf858-1913-402e-8ccf-cecdcfc0a883)
 
 
 image generated with https://jaroslaw-weber.github.io/keyfab/
