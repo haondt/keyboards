@@ -22,31 +22,31 @@ enum keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [DEF] = LAYOUT_split_3x6_3(
-        KC_NO,       KC_NO,       KC_W,        KC_E,        KC_R,        KC_T,        KC_Y,        KC_U,        KC_I,        KC_O,        KC_NO,       KC_NO,
-        KC_NO,       KC_A,        KC_S,        KC_D,        KC_F,        KC_G,        KC_H,        KC_J,        KC_K,        KC_L,        KC_P,        KC_NO,
-        KC_NO,       KC_NO,       KC_X,        KC_C,        KC_V,        KC_B,        KC_N,        KC_M,        KC_Q,        KC_Z,        KC_NO,       KC_NO,
-                                  KC_NO,       KC_LSFT,     LA_MOD,      KC_SPC,      LA_SYM,      KC_NO
+        _______,     _______,     KC_W,        KC_E,        KC_R,        KC_T,        KC_Y,        KC_U,        KC_I,        KC_O,        _______,     _______,
+        _______,     KC_A,        KC_S,        KC_D,        KC_F,        KC_G,        KC_H,        KC_J,        KC_K,        KC_L,        KC_P,        _______,
+        _______,     _______,     KC_X,        KC_C,        KC_V,        KC_B,        KC_N,        KC_M,        KC_Q,        KC_Z,        _______,     _______,
+                                  KC_LCTL,     KC_LSFT,     LA_MOD,      KC_SPC,      LA_SYM,      KC_LALT
     ),
 
     [SYM] = LAYOUT_split_3x6_3(
-        KC_NO,       KC_NO,       KC_AMPR,     KC_QUOT,     KC_DQUO,     KC_PERC,     KC_TILD,     KC_LPRN,     KC_RPRN,     KC_AT,       KC_NO,       KC_NO,
-        KC_NO,       KC_CIRC,     KC_UNDS,     KC_COMM,     KC_DOT,      KC_HASH,     KC_GRV,      KC_LCBR,     KC_RCBR,     KC_BSLS,     KC_SLSH,     KC_NO,
-        KC_NO,       KC_NO,       KC_QUES,     KC_COLN,     KC_SCLN,     KC_DLR,      KC_PIPE,     KC_LBRC,     KC_RBRC,     KC_EXLM,     KC_NO,       KC_NO,
-                                  KC_NO,       _______,     _______,     _______,     _______,     KC_NO
+        _______,     _______,     KC_AMPR,     KC_QUOT,     KC_DQUO,     KC_PERC,     KC_SLSH,    KC_LPRN,     KC_RPRN,     KC_GRV,      _______,     _______,
+        _______,     KC_CIRC,     KC_UNDS,     KC_COMM,     KC_DOT,      KC_DLR,      KC_TILD,    KC_LCBR,     KC_RCBR,     KC_BSLS,     KC_AT,       _______,
+        _______,     _______,     KC_QUES,     KC_SCLN,     KC_COLN,     KC_HASH,     KC_PIPE,    KC_LBRC,     KC_RBRC,     KC_EXLM,     _______,     _______,
+                                  _______,     _______,     _______,     _______,     _______,   _______
     ),
 
     [MOD] = LAYOUT_split_3x6_3(
-        KC_NO,       KC_NO,       KC_DEL,      KC_TAB,      KC_ESC,       KC_NO,       KC_VOLU,     KC_NO,       KC_ENT,      KC_BSPC,     KC_NO,       KC_NO,
-        KC_NO,       OS_SHFT,     OS_GUI,      OS_ALT,      OS_CTRL,     LCTL(KC_Z),  KC_VOLD,     OS_CTRL,     OS_ALT,      OS_GUI,      OS_SHFT,     KC_NO,
-        KC_NO,       KC_NO,       KC_F1,       KC_F2,       KC_F3,       KC_F4,       KC_F5,       KC_F6,       KC_F7,       KC_F8,       KC_NO,       KC_NO,
-                                  KC_NO,       _______,     _______,     _______,     _______,     KC_NO
+        _______,     _______,     KC_DEL,      KC_TAB,      KC_ESC,      _______,     _______,     KC_VOLD,     KC_VOLU,     KC_BSPC,     _______,     _______,
+        _______,     OS_SHFT,     OS_GUI,      OS_ALT,      OS_CTRL,     LCTL(KC_Z),  KC_ENT,      OS_CTRL,     OS_ALT,      OS_GUI,      OS_SHFT,     _______,
+        _______,     _______,     KC_F1,       KC_F2,       KC_F3,       KC_F4,       KC_F5,       KC_F6,       KC_F7,       KC_F8,       _______,     _______,
+                                  _______,     _______,     _______,     _______,     _______,   _______
     ),
 
     [NUM] = LAYOUT_split_3x6_3(
-        KC_NO,       KC_NO,       KC_NO,       KC_UP,       KC_EQL,      KC_NO,       KC_PLUS,     KC_4,        KC_5,        KC_6,        KC_NO,       KC_NO,
-        KC_NO,       KC_NO,       KC_LEFT,     KC_DOWN,     KC_RGHT,     KC_NO,       KC_MINS,     KC_1,        KC_2,        KC_3,        KC_ASTR,     KC_NO,
-        KC_NO,       KC_NO,       KC_NO,       KC_LT,       KC_GT,       KC_NO,       KC_0,        KC_7,        KC_8,        KC_9,        KC_NO,       KC_NO,
-                                  KC_NO,       _______,     _______,     _______,     _______,     KC_NO
+        _______,     _______,     _______,     KC_UP,       KC_EQL,      _______,     KC_PLUS,     KC_4,        KC_5,        KC_6,        _______,     _______,
+        _______,     _______,     KC_LEFT,     KC_DOWN,     KC_RGHT,     _______,     KC_MINS,     KC_1,        KC_2,        KC_3,        KC_ASTR,     _______,
+        _______,     _______,     _______,     KC_LT,       KC_GT,       _______,     KC_0,        KC_7,        KC_8,        KC_9,        _______,     _______,
+                                  _______,     _______,     _______,     _______,     _______,   _______
     )
 
 };
